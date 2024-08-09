@@ -1,0 +1,7 @@
+php artisan serve
+
+./vendor/bin/phpcs
+
+./vendor/bin/phpcbf
+
+composer require --dev squizlabs/php_codesniffer     

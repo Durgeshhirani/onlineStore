@@ -1,0 +1,3 @@
+$user = new App \ Models \ User(); $user->setName('theo'); $user->setEmail('theo@theo.com'); $user->setPassword(bcrypt('theo1234')); $user->setBalance(5000);
+$user->setRole('admin'); $user->save();
+exit;
