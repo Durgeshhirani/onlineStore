@@ -10,6 +10,7 @@ class Kernel extends HttpKernel
      * The application's global HTTP middleware stack.
      *
      * These middleware are run during every request to your application.
+     * This is where the web.php's middleware is defined and declared.
      *
      * @var array<int, class-string|string>
      */
